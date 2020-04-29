@@ -1,0 +1,5 @@
+sleep 123
+bg
+disown -a && exit
+
+ps aux | grep sleep
