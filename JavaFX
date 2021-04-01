@@ -1,0 +1,27 @@
+import javafx.application.*;
+import javafx.stage.*;
+import javafx.scene.*;
+import javafx.scene.shape.*; //For Rectangle, Ellipse, etc.
+import javafx.scene.paint.*; //For Color
+import javafx.event.*; //For mouse and key events
+import javafx.scene.input.*; //Also needed for mouse and key events
+
+public class JavaFXMouseAndKeyEvents1 extends Application {
+  public static void main(String[] args) {
+        launch(args);
+    }
+
+public void start(Stage, stage) {
+    //start every javaFX program with these 5 lines
+    Group root = new Group(); //a Group is a collection of shapes to put on the screen
+    Scene scene = new Scene(root, 800, 600);
+    stage.setScene(scene);
+    stage.setTitle("Hello Everyone");
+    stage.show(); //shows the actual window
+    
+    EventHandler e = new EventHandler();
+
+
+}
+
+}
